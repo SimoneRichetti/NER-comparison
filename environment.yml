@@ -1,0 +1,19 @@
+name: ner-suite
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.6
+  - jupyter
+  - tensorflow
+  - numpy
+  - pip
+  - pandas
+  - scikit-learn
+  - sklearn-crfsuite
+  - tqdm
+  - pydot
+  - eli5
+  - seqeval
+  - pip:
+      - tf2crf
